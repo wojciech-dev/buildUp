@@ -6,8 +6,6 @@ A website of a fictitious construction company made of components in react.js
 * working with components
 * learning about react-router
 
-all based on localStorage
-
 ## What I used?
 * create-react-app
 * react-router
