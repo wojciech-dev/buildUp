@@ -9,9 +9,5 @@ export const contactData = [
         title: 'Location',
         address: '28 Jackson Blvd Ste 1020 Chicago IL 60604-2340',
         social: [social1, social2, social3],
-        copy: '©2020 Privacy policy'
     },
-    {
-        img: photo
-    }
 ];

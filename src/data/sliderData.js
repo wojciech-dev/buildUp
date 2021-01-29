@@ -9,7 +9,7 @@ export const Slides = [
     },
     {
         title: "Building Your Own Home",
-        subtitle: "Calculating the Cost of Building a House",
+        subtitle: "Where you buy or build your home has a profound influence over your ability to meet your existing and future needs.",
         image: img2
     }
 ];
