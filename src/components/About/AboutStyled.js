@@ -7,6 +7,11 @@ export const Background = styled.div`
   background-repeat: no-repeat;
   width: 100%;
   height: 100vh;
+  animation-name: fadeIn;
+  animation-duration: .4s;
+  transition-timing-function: ease-in;
+  animation-fill-mode: both;
+
 
   @media screen and (max-width: 1024px) {
       height: auto;
@@ -75,6 +80,16 @@ export const Grid = styled.div`
       }
     }
   }
+
+  @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
 `;
 
 export const Img = styled.img`

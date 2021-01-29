@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { Header, NavContainer, Input, NavOpen, Height } from './NavbarStyled';
 
 const NavBar = () => (

@@ -4,7 +4,10 @@ import icon3 from 'assets/images/icon3.svg';
 
 import photo1 from 'assets/images/about1.jpg';
 import photo2 from 'assets/images/about2.jpg';
-
+import photo3 from 'assets/images/about3.jpg';
+import photo4 from 'assets/images/about4.jpg';
+import photo5 from 'assets/images/about5.jpg';
+import photo6 from 'assets/images/about6.jpg';
 
 
 function convertToSlug(Text) {
@@ -40,7 +43,7 @@ export const aboutData = [
         slug: convertToSlug('Our projects'),
         desc: 'We are a global family of designers specialising in architecture, masterplanning and interiors.',
         body: 'A fast and simple solution to ship your Cargo to 200+ countries worldwide. Track and trace your shipment on our website. Timed collection and delivery is available.',
-        photo: [photo1, photo2],
+        photo: [photo3, photo4],
         icon: icon2,
     },
     {
@@ -51,7 +54,7 @@ export const aboutData = [
         slug: convertToSlug('Our team'),
         desc: 'We are a global family of designers specialising in architecture, masterplanning and interiors.',
         body: 'A fast and simple solution to ship your Cargo to 200+ countries worldwide. Track and trace your shipment on our website. Timed collection and delivery is available.',
-        photo: [photo1, photo2],
+        photo: [photo5, photo6],
         icon: icon3,
     },
 

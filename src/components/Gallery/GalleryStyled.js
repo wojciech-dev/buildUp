@@ -7,6 +7,10 @@ export const Background = styled.div`
     position: relative;
     box-shadow: 0px -1px 5px 0px rgba(50, 50, 50, .2);
     padding: 50px 0px;
+    animation-name: fadeIn;
+    animation-duration: .4s;
+    transition-timing-function: ease-in;
+    animation-fill-mode: both;
 
     &::after{
         content:"";
@@ -122,7 +126,15 @@ export const GalleryContainer = styled.div`
             bottom: auto;
         }
     }
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
 
+        100% {
+            opacity: 1;
+        }
+    }
 
 `;
 

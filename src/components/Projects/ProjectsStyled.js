@@ -5,6 +5,10 @@ export const Grid = styled.div`
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 0px 0px;
+    animation-name: fadeIn;
+    animation-duration: .4s;
+    transition-timing-function: ease-in;
+    animation-fill-mode: both;
 
     @media screen and (max-width: 640px) {
         grid-template-columns: 1fr;
@@ -56,6 +60,15 @@ export const Overlay = styled.div`
             color: #000000;
         }
 
+    }
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
     }
 `;
 

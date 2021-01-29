@@ -9,7 +9,7 @@ const Card = ({ index, name, body, photo, title }) => (
             {
                 photo.map((item, id) => (
                     <div className="AboutPage_photo" key={id}>
-                        <img className="AboutPage_img" src={item} />
+                        <img className="AboutPage_img" src={item} alt={item.title} />
                     </div>
                 ))
             }

@@ -5,6 +5,10 @@ export const AboutMore = styled.div`
     align-items: flex-end;
     flex-wrap: wrap;
     margin: 100px 0px;
+    animation-name: fadeIn;
+    animation-duration: .4s;
+    transition-timing-function: ease-in;
+    animation-fill-mode: both;
 
     @media screen and (max-width: 1200px) {
         padding: 20px;
@@ -69,6 +73,16 @@ export const AboutMore = styled.div`
             font-size: 2.3em;
             margin-bottom: 20px;
             color: ${({ theme }) => theme.headerCard};
+        }
+    }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
         }
     }
 `;

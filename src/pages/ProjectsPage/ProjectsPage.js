@@ -11,7 +11,7 @@ const Card = ({ index, title, body, photo }) => (
                 <div className="projects_content-text">{body}</div>
             </div>
             <Photo>
-                <img className="photo_img" src={photo} />
+                <img className="photo_img" src={photo} alt={title} />
             </Photo>
         </Projects>
     </div>

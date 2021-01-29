@@ -12,6 +12,11 @@ export const Contacts = styled.div`
     justify-content: space-between;
     padding: 60px 20px;
     margin: 20px 0;
+    animation-name: fadeIn;
+    animation-duration: .4s;
+    transition-timing-function: ease-in;
+    animation-fill-mode: both;
+
 
     @media screen and (max-width: 768px) {
         flex-direction: column;
@@ -87,6 +92,16 @@ export const Contacts = styled.div`
                 margin: 5px;
             }
 
+        }
+    }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
         }
     }
 `;
