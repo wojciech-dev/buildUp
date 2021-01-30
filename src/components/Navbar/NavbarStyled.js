@@ -30,9 +30,10 @@ export const Header = styled.header`
   }
 `;
 
-export const NavContainer = styled.nav`
+export const NavContainer = styled.div`
   .nav {
     display: flex;
+    transition: .4s;
 
       a {
         color: #ffffff;
@@ -55,7 +56,7 @@ export const NavContainer = styled.nav`
     left: 0;
     height: 100vh;
     width: 100%;
-    opacity: 0;
+    visibility: hidden;
     background: ${({ theme }) => theme.mainColor};
     transition: opacity 0.5s ease;
 
@@ -149,8 +150,7 @@ export const Input = styled.input`
   }
 
   & ~ .nav-container {
-    opacity: 1;
-  
+    visibility: visible;
     .nav {
       a {
         opacity: 1;
@@ -167,7 +167,7 @@ function createDelay() {
   for (let i = 0; i < 6; i++) {
     styles += `
       &:nth-child(${i + 1}) {
-        transition-delay: ${`${i * 0.2}s`};
+        transition-delay: ${`${i * 0.1}s`};
       }
     `;
   }
