@@ -13,6 +13,7 @@ export const AboutMore = styled.div`
     @media screen and (max-width: 1200px) {
         padding: 20px;
         justify-content: center;
+        margin: 0px;
     }
 
 

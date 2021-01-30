@@ -9,7 +9,7 @@ export const Projects = styled.div`
     padding-left: 20px;
     padding-right: 20px;
     display: block;
-    margin: 100px 0 20px 0px;
+    margin: 20px 0px;
   }
 
   .projects_content {
