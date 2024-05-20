@@ -15,4 +15,4 @@ A website of a fictitious construction company made of components in react.js
 
 ## Demo online
 
-[Visit online](http://react.vot.pl/)
+[Visit online](https://build.byst.re/)
